@@ -1,0 +1,14 @@
+{
+  "name": "erp-backend",
+  "version": "1.0.0",
+  "description": "Sistema KEX ERP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "db:test": "node utils/testConnection.js"
+  },
+  "keywords": ["erp", "nodejs", "mysql", "express"],
+  "author": "Yurik Reyes",
+  "license": "MIT"
+}
